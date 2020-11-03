@@ -73,12 +73,7 @@ class FormGenerator extends Component {
     const { formObj, formError } = this.state;
 
     return (
-      <form
-        style={this.styles.loginForm}
-        onSubmit={e => this.onSubmit(e)}
-        method='post'
-        novalidate
-      >
+      <form style={this.styles.loginForm} onSubmit={e => this.onSubmit(e)}>
         <Grid
           item
           container
